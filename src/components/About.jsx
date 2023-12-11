@@ -19,11 +19,11 @@ const About = () => {
                     </div>
                     <div className="pl-4 sm:pl-0">
                         <p>
-                            I completed my graduation in Computer Science & Engineering in 2018. Immediately after, I started studying for post graduation in Computer Science and had completed two semester. But for some unforseen reasons, I could not complete my post graduation degree. I had already lost quite a bit of valuable time but did not let it break my spirit.
+                            I completed my graduation in Computer Science & Engineering in 2018. Immediately after, I started studying for post graduation in Computer Science and had completed two semesters. But for some unforseen reasons, I could not complete my post graduation degree. I had already lost quite a bit of valuable time but did not let it break my spirit.
                         </p>
                         <br />
                         <p>
-                            I decided to start afresh. I dedicated myself to developing my skills, updating what I already know and explore the realm of development and coding. I started learning with a view to establishing myself as a MERN stack developer from July 2023 to December 2023. Now I am confident of my skills as a MERN stack developer. 
+                            I decided to start afresh. I dedicated myself to developing my skills, updating the prior knowledge I had and explore the realm of development and coding. I started learning with a view to establishing myself as a MERN stack developer from July 2023 to December 2023. Now I am confident of my skills as a MERN stack developer. 
                         </p>
                     </div>
                 </div>
