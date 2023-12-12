@@ -5,7 +5,7 @@ import { FaGlobe, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     return (
-        <div name="projects" className="w-full text-gray-300">
+        <div name="projects" className="w-full mt-32 md:mt-0 text-gray-300">
             <div className="max-w-[950px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div className="text-center pb-8 mb-6">
                     <p className="text-4xl font-bold border-b-4 inline border-pink-600">My Projects</p>
