@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
-import {toast} from "react-hot-toast";
+import { toast } from "react-hot-toast";
 
 const Contact = () => {
 
@@ -16,7 +16,7 @@ const Contact = () => {
             .then((result) => {
                 setIsLoading(false);
                 toast.success("Mail successfully sent! I'll respond as soon as possible.");
-                
+
                 console.log(result);
             }, (error) => {
                 setIsLoading(false);
@@ -25,9 +25,12 @@ const Contact = () => {
     };
 
     return (
-        <div name="contact" className="w-full lg:h-screen bg-cyan-950">
+        <div name="contact" className="w-full lg:h-screen bg-cyan-950 text-gray-300">
+            <div className='text-center'>
+                <p className="text-4xl font-bold border-b-4 inline border-pink-600">Contact</p>
+            </div>
 
-            <div className="max-w-[950px] mx-auto flex items-top justify-center min-h-screen text-gray-300 sm:items-center sm:pt-0">
+            <div className="max-w-[950px] mx-auto flex items-top justify-center min-h-screen  sm:items-center sm:pt-0">
                 <div className=" sm:px-6 lg:px-4">
                     <div className="mt-8 overflow-hidden">
                         <div className="grid grid-cols-1 md:grid-cols-2 text-gray-300">
@@ -35,7 +38,7 @@ const Contact = () => {
                                 <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
                                     Contact Me
                                 </h1>
-                                <p className="text-normal text-lg sm:text-2xl font-medium text-gray-400 dark:text-gray-400 mt-2">
+                                <p className="text-normal text-lg sm:text-lg font-medium text-gray-400 dark:text-gray-400 mt-2">
                                     Let's get in touch! <br />
                                     I'll be eagerly waiting for your mail.
                                 </p>

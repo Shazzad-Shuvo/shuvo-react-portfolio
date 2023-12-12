@@ -1,13 +1,15 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { FaDownload } from "react-icons/fa";
+import photo from '../assets/my_image.png'
 
 const Home = () => {
     return (
-        <div name="home" className="w-full h-screen ">
+        <div name="home" className="w-full h-screen max-w-[950px] mx-auto flex">
 
             {/* container */}
-            <div className="max-w-[950px] mx-auto px-8 flex flex-col justify-center h-full">
+            <div className=" px-8 flex flex-col justify-center h-full">
                 <p className="text-xl text-pink-600">Hi i'm,</p>
+                {/* <img className="z-10" src={photo} alt="" /> */}
                 <h2 className="text-4xl sm:text-6xl font-bold text-slate-50">Muhammad <br /> Shazzadur Rahman</h2>
                 <p className="text-4xl sm:text-5xl font-bold text-slate-500">A Full Stack Developer</p>
                 <p className="text-slate-400 py-4 max-w-2xl">I am a full-stack (MERN) enthusiast focused on building projects with user's requirements and needs in mind. I love to take on new challenges and dive into new technologies in this ever growing tech world. </p>
@@ -30,6 +32,9 @@ const Home = () => {
                     </a>
                 </div>
 
+            </div>
+            <div className="mt-36">
+                <img className="w-64 h-64 rounded-full" src={photo} alt="" />
             </div>
 
         </div>
