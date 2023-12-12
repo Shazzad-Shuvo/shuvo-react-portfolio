@@ -4,7 +4,7 @@ import photo from '../assets/my_image.png'
 
 const Home = () => {
     return (
-        <div name="home" className="w-full h-screen max-w-[950px] mx-auto flex">
+        <div name="home" className="w-full mt-20 pt-44 max-w-[950px] mx-auto flex bg-cyan-950">
 
             {/* container */}
             <div className=" px-8 flex flex-col justify-center h-full">
@@ -33,8 +33,8 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className="mt-36">
-                <img className="w-64 h-64 rounded-full" src={photo} alt="" />
+            <div className="lg:mt-36 pr-5">
+                <img className="w-64 h64 rounded-full" src={photo} alt="" />
             </div>
 
         </div>

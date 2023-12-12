@@ -11,8 +11,8 @@ import expressjs from '../assets/express.png'
 
 const Skills = () => {
     return (
-        <div name="skills" className='w-full h-screen'>
-            <div className='max-w-[950px] mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-300'>
+        <div name="skills" className='w-full'>
+            <div className='max-w-[950px] mx-auto p-4 flex flex-col justify-center w-full  text-gray-300'>
                 <div className='text-center'>
                     <p className="text-4xl font-bold border-b-4 inline border-pink-600">Skills</p>
                     <p className='mt-4 text-2xl font-semibold'>I am adept at</p>

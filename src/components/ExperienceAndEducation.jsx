@@ -2,7 +2,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const ExperienceAndEducation = () => {
     return (
-        <div name="experience" className="w-full h-screen max-w-[950px] mx-auto text-gray-300 mt-40">
+        <div name="experience" className="w-full max-w-[950px] mx-auto text-gray-300 mt-40 p-4 flex flex-col justify-center items-center">
             <div className='text-center'>
                 <p className="text-4xl font-bold border-b-4 inline border-pink-600">Experience & Education</p>
                 {/* <p className='mt-4 text-2xl font-semibold'>I am adept at</p> */}

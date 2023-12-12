@@ -25,7 +25,7 @@ const Contact = () => {
     };
 
     return (
-        <div name="contact" className="w-full lg:h-screen bg-cyan-950 text-gray-300">
+        <div name="contact" className="w-full mt-32 mb-10 md:mt-14 bg-cyan-950 text-gray-300">
             <div className='text-center'>
                 <p className="text-4xl font-bold border-b-4 inline border-pink-600">Contact</p>
             </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                 <div className=" sm:px-6 lg:px-4">
                     <div className="mt-8 overflow-hidden">
                         <div className="grid grid-cols-1 md:grid-cols-2 text-gray-300">
-                            <div className="p-5 mr-2 bg-cyan-800 rounded-lg">
+                            <div className="p-5  bg-cyan-800 rounded-lg">
                                 <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
                                     Contact Me
                                 </h1>
