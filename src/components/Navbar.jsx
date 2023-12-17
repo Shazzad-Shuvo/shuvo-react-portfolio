@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from 'react-scroll';
+import cv from '../../public/Md_Shazzadur_Rahman_RESUME.pdf'
 
 const Navbar = () => {
 
@@ -174,7 +175,7 @@ const Navbar = () => {
                     </li>
                     <li className="flex justify-between items-center w-40 h-16 ml-[-100px] hover:ml-[-10px] duration-500 bg-stone-700">
                         <a className="flex justify-between items-center w-full"
-                            href="../../public/Muhammad_Shazzadur_Rahman_CV(2).pdf" download>
+                            href={cv} download>
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>

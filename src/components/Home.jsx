@@ -1,6 +1,8 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { FaDownload } from "react-icons/fa";
 import photo from '../assets/my_image.png'
+import cv from '../../public/Md_Shazzadur_Rahman_RESUME.pdf'
+import { Link } from "react-scroll";
 
 const Home = () => {
     return (
@@ -15,14 +17,22 @@ const Home = () => {
                 <p className="text-slate-400 py-4 max-w-2xl">I am a full-stack (MERN) enthusiast focused on building projects with user's requirements and needs in mind. I love to take on new challenges and dive into new technologies in this ever growing tech world. </p>
                 <div className="flex flex-col md:flex-row gap-5">
                     <div>
-                        <button className="group flex items-center gap-3 text-white border-2 px-6 py-3 rounded-md hover:bg-pink-600 hover:border-pink-600">
-                            View My Projects
-                            <span className=" group-hover:rotate-90 duration-[400ms]">
-                                <HiArrowNarrowRight className="ml-3" size={22} />
-                            </span>
-                        </button>
+                        <Link
+                            activeClass="active"
+                            to="projects"
+                            smooth={true}
+                            duration={700}
+                        >
+                            <button className="group flex items-center gap-3 text-white border-2 px-6 py-3 rounded-md hover:bg-pink-600 hover:border-pink-600">
+                                View My Projects
+                                <span className=" group-hover:rotate-90 duration-[400ms]">
+                                    <HiArrowNarrowRight className="ml-3" size={22} />
+                                </span>
+                            </button>
+                        </Link>
+
                     </div>
-                    <a href="../../public/Muhammad_Shazzadur_Rahman_CV(2).pdf" download>
+                    <a href={cv} download>
                         <button className="group flex items-center gap-3 text-white border-2 px-6 py-3 rounded-md hover:bg-pink-600 hover:border-pink-600">
                             Download Resume
                             <span className=" group-hover:scale-125 duration-[400ms]">
@@ -33,7 +43,7 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className="lg:mt-36 pr-5">
+            <div className="lg:mt-20 pr-5">
                 <img className="w-64 h64 rounded-full" src={photo} alt="" />
             </div>
 
